@@ -1,8 +1,12 @@
 {
   "extends": [
-    "next/core-web-vitals",
+    "@shiron-dev/eslint-config",
+    "@shiron-dev/eslint-config/next",
     "plugin:eslint-plugin-next-on-pages/recommended"
   ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "plugins": [
     "eslint-plugin-next-on-pages"
   ]

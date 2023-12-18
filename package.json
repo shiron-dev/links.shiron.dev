@@ -7,18 +7,21 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "pages:build": "pnpm next-on-pages",
     "pages:deploy": "pnpm pages:build && wrangler pages deploy .vercel/output/static",
     "pages:watch": "pnpm next-on-pages --watch",
     "pages:dev": "pnpm wrangler pages dev .vercel/output/static --compatibility-date=2023-12-06 --compatibility-flag=nodejs_compat"
   },
   "dependencies": {
+    "hono": "^3.11.8",
     "next": "14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.8.2",
+    "@shiron-dev/eslint-config": "^1.5.1",
     "@types/node": "^20.10.5",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
