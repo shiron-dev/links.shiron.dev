@@ -11,7 +11,9 @@
     "pages:build": "pnpm next-on-pages",
     "pages:deploy": "pnpm pages:build && wrangler pages deploy .vercel/output/static",
     "pages:watch": "pnpm next-on-pages --watch",
-    "pages:dev": "pnpm wrangler pages dev .vercel/output/static --compatibility-date=2023-12-06 --compatibility-flag=nodejs_compat"
+    "pages:dev": "pnpm wrangler pages dev .vercel/output/static --compatibility-date=2023-12-06 --compatibility-flag=nodejs_compat",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "hono": "^3.11.8",
@@ -22,12 +24,21 @@
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.8.2",
     "@shiron-dev/eslint-config": "^1.5.1",
+    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-interactions": "^7.6.6",
+    "@storybook/addon-links": "^7.6.6",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.6",
+    "@storybook/nextjs": "^7.6.6",
+    "@storybook/react": "^7.6.6",
+    "@storybook/test": "^7.6.6",
     "@types/node": "^20.10.5",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
     "eslint": "^8.56.0",
     "eslint-config-next": "14.0.4",
     "eslint-plugin-next-on-pages": "^1.8.2",
+    "storybook": "^7.6.6",
     "typescript": "^5.3.3",
     "vercel": "^32.7.2",
     "wrangler": "^3.21.0"
