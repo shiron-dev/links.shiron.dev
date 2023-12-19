@@ -1,4 +1,4 @@
-type SNSType = "X(Twitter)" | "GitHub";
+export type SNSType = "X(Twitter)" | "GitHub";
 
 interface SNSData {
   url: string;
