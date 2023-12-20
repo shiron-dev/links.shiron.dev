@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "@shiron-dev/eslint-config",
+    "@shiron-dev/eslint-config/next",
+    "@shiron-dev/eslint-config/storybook",
+    "plugin:eslint-plugin-next-on-pages/recommended"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "eslint-plugin-next-on-pages"
+  ]
+}
