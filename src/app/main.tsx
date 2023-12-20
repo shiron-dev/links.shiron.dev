@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 
 const fetchData = async (
   host: string,
-  protocol: string
+  protocol: string,
 ): Promise<
   | {
       sns: Record<SNSType, SNSData>;
@@ -15,10 +15,10 @@ const fetchData = async (
 > => {
   try {
     const sns = await fetch(`${protocol}://${host}/api/`).then((data) =>
-      data.json()
+      data.json(),
     );
     const icons = await fetch(`${protocol}://${host}/api/icons`).then((data) =>
-      data.json()
+      data.json(),
     );
     return {
       sns: sns,

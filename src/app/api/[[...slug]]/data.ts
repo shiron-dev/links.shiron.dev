@@ -35,7 +35,7 @@ export interface SNSIconData {
 }
 
 export const SNSIcon = (
-  host: string | undefined
+  host: string | undefined,
 ): Record<SNSType, SNSIconData> => {
   return {
     "X(Twitter)": {
