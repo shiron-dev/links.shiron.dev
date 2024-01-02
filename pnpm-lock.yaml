@@ -65,8 +65,8 @@ devDependencies:
     specifier: 14.0.4
     version: 14.0.4(eslint@8.56.0)(typescript@5.3.3)
   eslint-plugin-next-on-pages:
-    specifier: ^1.8.2
-    version: 1.8.2(eslint@8.56.0)
+    specifier: ^1.8.3
+    version: 1.8.3(eslint@8.56.0)
   storybook:
     specifier: ^7.6.6
     version: 7.6.6
@@ -7596,8 +7596,8 @@ packages:
       semver: 7.5.4
     dev: true
 
-  /eslint-plugin-next-on-pages@1.8.2(eslint@8.56.0):
-    resolution: {integrity: sha512-NoZ8XlSQF2IUBF40OUPc8V995ywMOBUlVbuCue1xmjViOaXqS/xgZVB5ZnQc/5m2WxhUvIU44t9JqNpvxE5DZA==}
+  /eslint-plugin-next-on-pages@1.8.3(eslint@8.56.0):
+    resolution: {integrity: sha512-OT8JXKMlVdWHIFaBorHtMzniT6K//EQn4bt/pZ2jdeRmGMdAhwrJkO0kHqyWlkZRrxvKlkX/N1O+p/GYXDwMCg==}
     peerDependencies:
       eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
