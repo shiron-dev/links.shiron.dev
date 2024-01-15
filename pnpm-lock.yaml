@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   hono:
-    specifier: ^3.12.2
+    specifier: ^3.12.3
     version: 3.12.3
   next:
     specifier: 14.0.4
