@@ -50,7 +50,7 @@ devDependencies:
     specifier: ^7.6.8
     version: 7.6.8
   '@types/node':
-    specifier: ^20.11.2
+    specifier: ^20.11.3
     version: 20.11.5
   '@types/react':
     specifier: ^18.2.48
