@@ -21,7 +21,7 @@ dependencies:
 devDependencies:
   '@cloudflare/next-on-pages':
     specifier: ^1.8.5
-    version: 1.8.5(vercel@33.3.0)(wrangler@3.25.0)
+    version: 1.8.5(vercel@33.4.1)(wrangler@3.25.0)
   '@shiron-dev/eslint-config':
     specifier: ^1.5.1
     version: 1.5.1(@typescript-eslint/parser@6.14.0)(eslint@8.56.0)(tailwindcss@3.3.6)(typescript@5.3.3)
@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^5.3.3
     version: 5.3.3
   vercel:
-    specifier: ^33.3.0
-    version: 33.3.0(@swc/core@1.3.101)
+    specifier: ^33.4.0
+    version: 33.4.1(@swc/core@1.3.101)
   wrangler:
     specifier: ^3.25.0
     version: 3.25.0
@@ -1445,7 +1445,7 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@cloudflare/next-on-pages@1.8.5(vercel@33.3.0)(wrangler@3.25.0):
+  /@cloudflare/next-on-pages@1.8.5(vercel@33.4.1)(wrangler@3.25.0):
     resolution: {integrity: sha512-mY7ovjE6NM9ZPhWH3HZMW7lT9f3242KpHjz94NYaQ3Seu7BzXoHd23QVotxEpWZ1AtGeymrQ3Bmzy32cRToBSw==}
     hasBin: true
     peerDependencies:
@@ -1464,7 +1464,7 @@ packages:
       package-manager-manager: 0.2.0
       pcre-to-regexp: 1.1.0
       semver: 7.5.4
-      vercel: 33.3.0(@swc/core@1.3.101)
+      vercel: 33.4.1(@swc/core@1.3.101)
       wrangler: 3.25.0
     transitivePeerDependencies:
       - bufferutil
@@ -4848,8 +4848,8 @@ packages:
     resolution: {integrity: sha512-Gfm8HDech41vf+EPleRzgoJUnDTJerKgckMm4KX0JT860gV9XBMSOWYH7eMWHmMza104+HRCWL7wT6OlpftF2Q==}
     dev: true
 
-  /@vercel/static-build@2.1.0:
-    resolution: {integrity: sha512-mSP3UNckqr3aqTx8fAbUiM/5E4llgJeUWFf1/RgUUqt5T5QnxZ2n10HagHSZ/fHCx1bT+J8jdty8Aq7v+vJt2Q==}
+  /@vercel/static-build@2.2.0:
+    resolution: {integrity: sha512-PG8/X6bk8K6sztAKckwo/miBdOU1EUmH5ct0oSXlZl7lv80v81axJrZ8YnqSmRyFT5+WR6e9Njk0Biz5FtyQ8w==}
     dependencies:
       '@vercel/gatsby-plugin-vercel-analytics': 1.0.11
       '@vercel/gatsby-plugin-vercel-builder': 2.0.16
@@ -12796,8 +12796,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@33.3.0(@swc/core@1.3.101):
-    resolution: {integrity: sha512-+lPMEFDBhH85yHa1m2qyUuNH+Oz0kgv2MV4DqUu4TsMysLDq031sVP/g7AybOIl34xb26qtp2L7EPbWy8ZK5Nw==}
+  /vercel@33.4.1(@swc/core@1.3.101):
+    resolution: {integrity: sha512-WR5rM9900CW6Z+jlEltF0f87CjHoppz1dJpZ1VzLPWOrgsvVMOcCginyCRhFyxT/AmkpGT7T3DjzKW9Tpx376Q==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
@@ -12811,7 +12811,7 @@ packages:
       '@vercel/redwood': 2.0.6
       '@vercel/remix-builder': 2.0.18
       '@vercel/ruby': 2.0.5
-      '@vercel/static-build': 2.1.0
+      '@vercel/static-build': 2.2.0
       chokidar: 3.3.1
     transitivePeerDependencies:
       - '@swc/core'
