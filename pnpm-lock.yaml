@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   hono:
-    specifier: ^3.12.10
-    version: 3.12.10
+    specifier: ^3.12.11
+    version: 3.12.12
   next:
     specifier: 14.1.0
     version: 14.1.0(@babel/core@7.23.6)(react-dom@18.2.0)(react@18.2.0)
@@ -8734,8 +8734,8 @@ packages:
       minimalistic-crypto-utils: 1.0.1
     dev: true
 
-  /hono@3.12.10:
-    resolution: {integrity: sha512-cPfwx4Khp+sUUjwH770UHVXmKN5CsCj/G15oUXZIpKMO2EdyTovSef9ptXSlvR6hz0yZSWorypIfwO6n2K0gFQ==}
+  /hono@3.12.12:
+    resolution: {integrity: sha512-5IAMJOXfpA5nT+K0MNjClchzz0IhBHs2Szl7WFAhrFOsbtQsYmNynFyJRg/a3IPsmCfxcrf8txUGiNShXpK5Rg==}
     engines: {node: '>=16.0.0'}
     dev: false
 
