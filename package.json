@@ -22,7 +22,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.9.0",
+    "@cloudflare/next-on-pages": "^1.10.0",
     "@shiron-dev/eslint-config": "^1.5.1",
     "@storybook/addon-essentials": "^7.6.17",
     "@storybook/addon-interactions": "^7.6.17",
