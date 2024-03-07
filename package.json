@@ -37,7 +37,7 @@
     "@types/react-dom": "^18.2.19",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.1.1",
-    "eslint-plugin-next-on-pages": "^1.9.0",
+    "eslint-plugin-next-on-pages": "^1.10.0",
     "storybook": "^7.6.17",
     "typescript": "^5.3.3",
     "vercel": "^33.5.3",
