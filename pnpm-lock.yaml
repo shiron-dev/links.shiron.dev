@@ -53,7 +53,7 @@ devDependencies:
     specifier: ^20.11.24
     version: 20.11.24
   '@types/react':
-    specifier: ^18.2.62
+    specifier: ^18.2.63
     version: 18.2.64
   '@types/react-dom':
     specifier: ^18.2.19
