@@ -41,6 +41,6 @@
     "storybook": "^7.6.17",
     "typescript": "^5.4.2",
     "vercel": "^33.6.1",
-    "wrangler": "^3.35.0"
+    "wrangler": "^3.36.0"
   }
 }
