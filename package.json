@@ -40,7 +40,7 @@
     "eslint-plugin-next-on-pages": "^1.11.0",
     "storybook": "^7.6.17",
     "typescript": "^5.4.5",
-    "vercel": "^33.7.0",
+    "vercel": "^33.7.1",
     "wrangler": "^3.48.0"
   }
 }
