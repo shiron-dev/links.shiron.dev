@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       hono:
-        specifier: ^4.3.7
-        version: 4.3.7
+        specifier: ^4.3.8
+        version: 4.3.9
       next:
         specifier: 14.2.3
         version: 14.2.3(@babel/core@7.23.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -2608,6 +2608,7 @@ packages:
   are-we-there-yet@2.0.0:
     resolution: {integrity: sha512-Ci/qENmwHnsYo9xKIcUJN5LeDKdJ6R1Z1j9V/J5wyq8nh/mYPEpIKJbBZXtZjG04HiK7zV/p6Vs9952MrMeUIw==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer supported.
 
   arg@4.1.0:
     resolution: {integrity: sha512-ZWc51jO3qegGkVh8Hwpv636EkbesNV5ZNQPCtRa+0qytRYPEs9IYT9qITY9buezqUH5uqyzlWLcufrzU2rffdg==}
@@ -4192,6 +4193,7 @@ packages:
   gauge@3.0.2:
     resolution: {integrity: sha512-+5J6MS/5XksCuXq++uFRsnUd7Ovu1XenbeuIuNRJxYWjgQbPuFhT14lAvsWfqfAmnwluf1OwMjz39HjfLPci0Q==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer supported.
 
   generic-pool@3.4.2:
     resolution: {integrity: sha512-H7cUpwCQSiJmAHM4c/aFu6fUfrhWXW1ncyh8ftxEPMu6AiYkHw9K8br720TGPZJbk5eOH2bynjZD1yPvdDAmag==}
@@ -4354,8 +4356,8 @@ packages:
   hmac-drbg@1.0.1:
     resolution: {integrity: sha512-Tti3gMqLdZfhOQY1Mzf/AanLiqh1WTiJgEj26ZuYQ9fbkLomzGchCws4FyrSd4VkpBfiNhaE1On+lOz894jvXg==}
 
-  hono@4.3.7:
-    resolution: {integrity: sha512-GXlsGnCAwGosu+COwYyYC8MwOY2L6Ihg9V1znYdMD8DHCJl+13Nk4o8dsBYJpae4oujjw24jBaITuYWVq2+V8Q==}
+  hono@4.3.9:
+    resolution: {integrity: sha512-6c5LVE23HnIS8iBhY+XPmYJlPeeClznOi7mBNsAsJCgxo8Ciz75LTjqRUf5wv4RYq8kL+1KPLUZHCtKmbZssNg==}
     engines: {node: '>=16.0.0'}
 
   hosted-git-info@2.8.9:
@@ -5200,6 +5202,7 @@ packages:
 
   npmlog@5.0.1:
     resolution: {integrity: sha512-AqZtDUWOMKs1G/8lwylVjrdYgqA4d9nu8hc+0gzRxlDb1I10+FHBGMXs6aiQHFdCUUlqH99MUMuLfzWDNDtfxw==}
+    deprecated: This package is no longer supported.
 
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
@@ -12196,7 +12199,7 @@ snapshots:
       minimalistic-assert: 1.0.1
       minimalistic-crypto-utils: 1.0.1
 
-  hono@4.3.7: {}
+  hono@4.3.9: {}
 
   hosted-git-info@2.8.9: {}
 
