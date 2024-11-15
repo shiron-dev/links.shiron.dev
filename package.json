@@ -28,6 +28,8 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241112.0",
+    "@hono/vite-cloudflare-pages": "^0.4.2",
+    "@hono/vite-dev-server": "^0.17.0",
     "@remix-run/dev": "^2.14.0",
     "@shiron-dev/eslint-config": "^2.1.0",
     "@storybook/addon-essentials": "^8.3.6",
@@ -51,6 +53,8 @@
     "eslint": "^8.57.1",
     "eslint-plugin-format": "^0.1.2",
     "jsdom": "^25.0.1",
+    "remix-hono": "^0.0.16",
+    "remix-typedjson": "^0.4.1",
     "typescript": "^5.6.3",
     "vite": "^5.4.10",
     "vite-tsconfig-paths": "^5.0.1",

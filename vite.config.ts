@@ -1,4 +1,6 @@
 import process from "node:process";
+import devServer, { defaultOptions } from "@hono/vite-dev-server";
+import adapter from "@hono/vite-dev-server/cloudflare";
 import {
   vitePlugin as remix,
   cloudflareDevProxyVitePlugin as remixCloudflareDevProxy,
@@ -22,5 +24,11 @@ export default defineConfig({
     }),
     tsconfigPaths(),
     vanillaExtractPlugin(),
+    devServer({
+      adapter,
+      entry: "server/",
+      exclude: [...defaultOptions.exclude, "/assets/**", "/app/**"],
+      injectClientScript: false,
+    }),
   ],
 });

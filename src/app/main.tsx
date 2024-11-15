@@ -1,4 +1,4 @@
-import type { ImgData, SNSData, SNSIconData, SNSType } from "./api/[[...slug]]/data";
+import type { ImgData, SNSData, SNSIconData, SNSType } from "../../server/data";
 import { headers } from "next/headers";
 import { SNSCard } from "./_components/SNSCard/SNSCard";
 import styles from "./page.module.css";
