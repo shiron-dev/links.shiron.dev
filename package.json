@@ -13,7 +13,8 @@
     "pages:watch": "pnpm next-on-pages --watch",
     "pages:dev": "pnpm wrangler pages dev .vercel/output/static --compatibility-date=2023-12-06 --compatibility-flag=nodejs_compat",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build:storybook": "storybook build",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "hono": "^4.4.0",
