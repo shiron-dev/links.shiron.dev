@@ -62,20 +62,23 @@ export default function Page(): ReactNode {
     throw new Error("error");
 
   return (
-    <main className={styles.main}>
-      <div className={styles.card}>
-        {Object.keys(data.sns).map((v) => {
-          const e = v as SNSType;
-          return (
-            <SNSCard
-              name={v}
-              userName={data.sns[e]?.username}
-              icon={getIconUrl(data.icons[e], true)}
-              href={data.sns[e].url}
-            />
-          );
-        })}
-      </div>
-    </main>
+    <div>
+      <main className={styles.main}>
+        <div>
+          {Object.keys(data.sns).map((v) => {
+            const e = v as SNSType;
+            return (
+              <SNSCard
+                className={styles.card}
+                name={v}
+                userName={data.sns[e]?.username}
+                icon={getIconUrl(data.icons[e], true)}
+                href={data.sns[e].url}
+              />
+            );
+          })}
+        </div>
+      </main>
+    </div>
   );
 }

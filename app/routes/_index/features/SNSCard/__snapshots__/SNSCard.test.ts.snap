@@ -13,16 +13,14 @@ exports[`button snapshot 1`] = `
       width="64"
     />
     <div>
-      <div
-        class="title"
-      >
+      <div>
         <div
-          class="sns-name"
+          class="styles_snsName__mdbbxh1"
         >
           GitHub
         </div>
         <div
-          class="user-name"
+          class="styles_userName__mdbbxh2"
         >
           @shiron-dev
         </div>

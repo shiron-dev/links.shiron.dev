@@ -22,13 +22,13 @@ export default defineConfig({
         v3_throwAbortReason: true,
       },
     }),
-    tsconfigPaths(),
-    vanillaExtractPlugin(),
-    devServer({
+    !isStorybook && devServer({
       adapter,
       entry: "server/",
       exclude: [...defaultOptions.exclude, "/assets/**", "/app/**"],
       injectClientScript: false,
     }),
+    tsconfigPaths(),
+    vanillaExtractPlugin(),
   ],
 });
