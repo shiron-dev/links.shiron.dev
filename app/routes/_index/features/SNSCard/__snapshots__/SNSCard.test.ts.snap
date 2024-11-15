@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`button snapshot 1`] = `
+<div>
+  <a
+    class="styles_snsCard__mdbbxh0"
+    href="https://github.com/shiron-dev"
+  >
+    <img
+      alt="GitHub"
+      height="64"
+      src="/github-mark.svg"
+      width="64"
+    />
+    <div>
+      <div
+        class="title"
+      >
+        <div
+          class="sns-name"
+        >
+          GitHub
+        </div>
+        <div
+          class="user-name"
+        >
+          @shiron-dev
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;
