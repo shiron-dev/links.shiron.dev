@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    runtime: 'experimental-edge',
-  }
-}
+    runtime: "experimental-edge",
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

@@ -1,10 +1,10 @@
 export type SNSType = "X(Twitter)" | "GitHub";
 
 export interface SNSData {
-  url: string;
-  username: string;
-  overview: string | undefined;
-  description: string | undefined;
+  url: string
+  username: string
+  overview: string | undefined
+  description: string | undefined
 }
 
 export const SNS: Record<SNSType, SNSData> = {
@@ -14,7 +14,7 @@ export const SNS: Record<SNSType, SNSData> = {
     overview: undefined,
     description: undefined,
   },
-  GitHub: {
+  "GitHub": {
     url: "https://github.com/shiron-dev",
     username: "shiron-dev",
     overview: undefined,
@@ -23,20 +23,18 @@ export const SNS: Record<SNSType, SNSData> = {
 };
 
 export interface ImgData {
-  svg: string | undefined;
-  png: string | undefined;
+  svg: string | undefined
+  png: string | undefined
 }
 
 export interface SNSIconData {
-  lightLogo: ImgData | undefined;
-  darkLogo: ImgData | undefined;
-  lightIcon: ImgData | undefined;
-  darkIcon: ImgData | undefined;
+  lightLogo: ImgData | undefined
+  darkLogo: ImgData | undefined
+  lightIcon: ImgData | undefined
+  darkIcon: ImgData | undefined
 }
 
-export const SNSIcon = (
-  host: string | undefined,
-): Record<SNSType, SNSIconData> => {
+export function SNSIcon(host: string | undefined): Record<SNSType, SNSIconData> {
   return {
     "X(Twitter)": {
       lightLogo: {
@@ -56,7 +54,7 @@ export const SNSIcon = (
         png: `${host}/x-logo/logo-black.png`,
       },
     },
-    GitHub: {
+    "GitHub": {
       lightLogo: {
         svg: undefined,
         png: `${host}/GitHub-Logos/GitHub_Logo_White.png`,
@@ -75,4 +73,4 @@ export const SNSIcon = (
       },
     },
   };
-};
+}

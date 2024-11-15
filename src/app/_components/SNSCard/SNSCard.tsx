@@ -1,17 +1,17 @@
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 import "./snscard.css";
 
 interface Props {
-  name: string;
-  userName: string;
-  icon: string;
-  href: string;
-  width?: number;
-  height?: number;
+  name: string
+  userName: string
+  icon: string
+  href: string
+  width?: number
+  height?: number
 }
 
-export const SNSCard = (props: Props): JSX.Element => {
+export function SNSCard(props: Props): JSX.Element {
   return (
     <Link href={props.href} className="sns-card">
       <Image
@@ -28,4 +28,4 @@ export const SNSCard = (props: Props): JSX.Element => {
       </div>
     </Link>
   );
-};
+}
