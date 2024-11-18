@@ -45,7 +45,7 @@ function getIconUrl(data: SNSIconData, isDark = false): string {
 }
 
 async function Main() {
-  const host = headers().get("host") ?? "";
+  const host = (await headers()).get("host") ?? "";
   const protocol = host.startsWith("localhost") ? "http" : "https";
   const data = await fetchData(host, protocol);
   if (data === undefined)
