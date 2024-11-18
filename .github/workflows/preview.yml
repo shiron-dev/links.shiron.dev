@@ -61,7 +61,7 @@ jobs:
         id: github_script
         with:
           script: |
-            const script = (await import(`${process.env.GITHUB_WORKSPACE}/.github/scripts/lighthouse.js`)).default;
+            const script = (await import(`${process.env.GITHUB_WORKSPACE}/.github/scripts/lighthouse.mjs`)).default;
             const manifest = ${{ steps.lighthouse_audit.outputs.manifest }};
             return script(manifest);
           result-encoding: string
