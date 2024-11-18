@@ -40,7 +40,7 @@
     "eslint": "^9.14.0",
     "storybook": "^7.6.20",
     "typescript": "^5.4.5",
-    "vercel": "^34.4.0",
+    "vercel": "^39.0.2",
     "wrangler": "^3.87.0"
   }
 }
