@@ -5,10 +5,6 @@ import { remix } from "remix-hono/handler";
 import { factory } from "server/factory";
 import { SNS, SNSIcon } from "./data";
 
-export interface ContextEnv {
-  Bindings: Required<Env>
-}
-
 let handler: RequestHandler | undefined;
 
 const app = factory.createApp();
