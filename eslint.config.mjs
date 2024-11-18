@@ -1,7 +1,3 @@
 import shiron from "@shiron-dev/eslint-config";
 
-export default shiron(
-  {
-    next: true,
-  },
-);
+export default shiron();

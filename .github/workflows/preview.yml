@@ -24,6 +24,8 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Run build
         run: pnpm run build
+        env:
+          NODE_ENV: production
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         id: page
@@ -31,6 +33,8 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy ./build/client --project-name=links-shiron-dev
+        env:
+          NODE_ENV: production
       - name: Comment
         uses: mshick/add-pr-comment@v2.8.2
         with:
@@ -88,6 +92,8 @@ jobs:
         run: pnpm run build:storybook
       - name: Run build
         run: pnpm run build
+        env:
+          NODE_ENV: production
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         id: page
@@ -95,6 +101,8 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy ./storybook-static --project-name=links-shiron-dev-sb
+        env:
+          NODE_ENV: production
       - name: Comment
         uses: mshick/add-pr-comment@v2.8.2
         with:

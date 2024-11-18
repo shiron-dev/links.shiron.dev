@@ -1,0 +1,1 @@
+export { SNSCard } from "./SNSCard";
