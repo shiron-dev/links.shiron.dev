@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { SNSCard } from "../../app/_components/SNSCard/SNSCard";
+import { SNSCard } from "./SNSCard";
 
 const meta: Meta<typeof SNSCard> = {
   title: "components/SNSCard",
