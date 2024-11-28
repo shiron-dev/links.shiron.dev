@@ -18,7 +18,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "hono": "^4.6.11",
+    "hono": "^4.6.12",
     "next": "15.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
