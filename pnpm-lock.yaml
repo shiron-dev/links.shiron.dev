@@ -76,7 +76,7 @@ importers:
         specifier: ^39.1.3
         version: 39.1.3(@swc/core@1.3.101(@swc/helpers@0.5.13))
       wrangler:
-        specifier: ^3.92.0
+        specifier: ^3.93.0
         version: 3.93.0
 
 packages:
