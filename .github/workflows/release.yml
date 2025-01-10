@@ -21,7 +21,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Release please
-        uses: googleapis/release-please-action@v4
+        uses: googleapis/release-please-action@7987652d64b4581673a76e33ad5e98e3dd56832f # v4
         id: release
         with:
           release-type: simple
@@ -34,13 +34,13 @@ jobs:
     environment: deploy
     steps:
       - uses: actions/checkout@v4
-      - uses: shiron-dev/actions/setup-node@v1.1.0
+      - uses: shiron-dev/actions/setup-node@80f5f1513667e3070306b37e57021218addf46cb # v1.1.0
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: Run build:pages
         run: pnpm run build:pages
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@6d58852c35a27e6034745c5d0bc373d739014f7f # v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
