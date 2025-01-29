@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       hono:
-        specifier: ^4.6.18
+        specifier: ^4.6.19
         version: 4.6.19
       next:
         specifier: 15.1.6
