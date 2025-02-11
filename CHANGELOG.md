@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.1](https://github.com/shiron-dev/links.shiron.dev/compare/v1.0.0...v1.0.1) (2025-02-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency hono to ^4.6.17 ([#364](https://github.com/shiron-dev/links.shiron.dev/issues/364)) ([c71ea3a](https://github.com/shiron-dev/links.shiron.dev/commit/c71ea3a689604dd39363460f12a96406434679f4))
+* **deps:** update dependency hono to ^4.6.18 ([#370](https://github.com/shiron-dev/links.shiron.dev/issues/370)) ([29d9128](https://github.com/shiron-dev/links.shiron.dev/commit/29d91288718a6c058b35b7642ee0a2b71b48d0ca))
+* **deps:** update dependency hono to ^4.6.19 ([#375](https://github.com/shiron-dev/links.shiron.dev/issues/375)) ([79c2617](https://github.com/shiron-dev/links.shiron.dev/commit/79c2617beb9f4196385aca67e92efb9096f8a39f))
+* **deps:** update dependency hono to ^4.6.20 ([#380](https://github.com/shiron-dev/links.shiron.dev/issues/380)) ([ce1af48](https://github.com/shiron-dev/links.shiron.dev/commit/ce1af484a6bcacdf1f8c965f6c212c6a56da7624))
+* **deps:** update dependency hono to ^4.7.0 ([#388](https://github.com/shiron-dev/links.shiron.dev/issues/388)) ([a71879c](https://github.com/shiron-dev/links.shiron.dev/commit/a71879cdd06b1f1569dfe19b93cc67b4dff784c1))
+* **deps:** update dependency next to v15.1.4 ([#347](https://github.com/shiron-dev/links.shiron.dev/issues/347)) ([2948021](https://github.com/shiron-dev/links.shiron.dev/commit/294802185f1bb9dddd26d3a230508c4e115ac7be))
+* **deps:** update dependency next to v15.1.5 ([#362](https://github.com/shiron-dev/links.shiron.dev/issues/362)) ([e78cab8](https://github.com/shiron-dev/links.shiron.dev/commit/e78cab8810c73a3e39318ac2543b0787484561fe))
+* **deps:** update dependency next to v15.1.6 ([#366](https://github.com/shiron-dev/links.shiron.dev/issues/366)) ([0579025](https://github.com/shiron-dev/links.shiron.dev/commit/0579025c5b16012c55aae92b6d9faf82a853e7d1))
+
 ## 1.0.0 (2024-11-19)
 
 
